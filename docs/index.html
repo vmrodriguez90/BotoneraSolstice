@@ -9,6 +9,9 @@
         <button onclick="pamonoClick();">Pa Mono</button>    
         <button onclick="mamaClick();">MAMAAAAA</button>    
         <button onclick="cortasteClick();">ACABAS CORTAR TOA' LA LETRICIDA'</button>    
+        <button onclick="guerradeproyClick();">Guerra de Proyectos</button>    
+        <button onclick="hebotonClick();">He Boton! by Butti</button>    
+
         <button id="stop" onclick="stopVideo();">STOP</button>    
     </div>
     <style>
@@ -122,6 +125,25 @@
             suggestedQuality: 'small'
         }); 
       }
+      function guerradeproyClick() {
+        var urlCall = "0R0IZ4Y8lck";
+        player.loadVideoById({
+            videoId: urlCall,
+            startSeconds: 27,
+            endSeconds: 30,
+            suggestedQuality: 'small'
+        }); 
+      }
+      function hebotonClick() {
+        var urlCall = "0R0IZ4Y8lck";
+        player.loadVideoById({
+            videoId: urlCall,
+            startSeconds: 01.8,
+            endSeconds: 03,
+            suggestedQuality: 'small'
+        }); 
+      }
+      
       
       function stopVideo() {
         player.stopVideo();
