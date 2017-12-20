@@ -7,6 +7,8 @@
         <button onclick="callonmeClick();">Call on Me</button>
         <button onclick="martinfierroClick();">Martin Fierro</button>    
         <button onclick="pamonoClick();">Pa Mono</button>    
+        <button onclick="mamaClick();">MAMAAAAA</button>    
+        <button onclick="cortasteClick();">CORTASTE TOA' LA LOOZ</button>    
         <button id="stop" onclick="stopVideo();">STOP</button>    
     </div>
     <style>
@@ -97,8 +99,26 @@
         var urlCall = "WvVWJn1pO4w";
         player.loadVideoById({
             videoId: urlCall,
-            startSeconds: 00,
+            startSeconds: 0.5,
             endSeconds: 1.5,
+            suggestedQuality: 'small'
+        }); 
+      }
+      function mamaClick() {
+        var urlCall = "0UMVKAIEfk8";
+        player.loadVideoById({
+            videoId: urlCall,
+            startSeconds: 07,
+            endSeconds: 09,
+            suggestedQuality: 'small'
+        }); 
+      }
+      function cortasteClick() {
+        var urlCall = "0UMVKAIEfk8";
+        player.loadVideoById({
+            videoId: urlCall,
+            startSeconds: 11,
+            endSeconds: 15,
             suggestedQuality: 'small'
         }); 
       }
