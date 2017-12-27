@@ -12,8 +12,10 @@
         <button onclick="guerradeproyClick();">Guerra de Proyectos</button>    
         <button onclick="hebotonClick();">He Boton! by Butti</button>    
         <button onclick="sexbombClick();">Sex Bomb</button>
-      <button onclick="grilloClick();">Grillo </button>
-
+        <button onclick="grilloClick();">Grillo </button>
+        <button onclick="badadumtissClick();">Bada dum Tiss</button>
+        <button onclick="risasClick();" >Risas</button>
+        <button onclick="aplausosClick();" >Aplausos</button>
         <button id="stop" onclick="stopVideo();">STOP</button>    
     </div>
     <style>
@@ -162,8 +164,31 @@
             suggestedQuality: 'small'
         }); 
       }
-      
-      
+      fucntion badadumtissClick() {
+        var urlCall = "Az83wgx3dwg";
+        player.loadVideoById({
+            videoId: urlCall,
+            startSeconds: 0,
+            suggestedQuality: 'small'
+        }); 
+      }
+      function risasClick() {    
+        var urlCall = "lJXKie2xCoQ";
+        player.loadVideoById({
+            videoId: urlCall,
+            startSeconds: 0,
+            suggestedQuality: 'small'
+        }); 
+      }
+      function aplausosClick() {
+        var urlCall = "7t2HZLZ1PQs";
+        player.loadVideoById({
+            videoId: urlCall,
+            startSeconds: 3,
+            endSeconds: 13,
+            suggestedQuality: 'small'
+        }); 
+      }
       function stopVideo() {
         player.stopVideo();
       }
