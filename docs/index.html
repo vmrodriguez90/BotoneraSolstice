@@ -11,6 +11,8 @@
         <button onclick="cortasteClick();">ACABAS CORTAR TOA' LA LETRICIDA'</button>    
         <button onclick="guerradeproyClick();">Guerra de Proyectos</button>    
         <button onclick="hebotonClick();">He Boton! by Butti</button>    
+        <button onclick="sexbombClick();">Sex Bomb</button>
+      <button onclick="grilloClick();">Grillo </button>
 
         <button id="stop" onclick="stopVideo();">STOP</button>    
     </div>
@@ -140,6 +142,23 @@
             videoId: urlCall,
             startSeconds: 1.8,
             endSeconds: 03,
+            suggestedQuality: 'small'
+        }); 
+      }
+      function sexbombClick() {
+        var urlCall = "QMoXON7k--c";
+        player.loadVideoById({
+            videoId: urlCall,
+            startSeconds: 47,
+            endSeconds: 63,
+            suggestedQuality: 'small'
+        }); 
+      }
+      function grilloClick() {
+        var urlCall = "RktX4lbe_g4";
+        player.loadVideoById({
+            videoId: urlCall,
+            startSeconds: 0,
             suggestedQuality: 'small'
         }); 
       }
