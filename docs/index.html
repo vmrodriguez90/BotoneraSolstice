@@ -17,7 +17,8 @@
         <button onclick="risasClick();" >Risas</button>
         <button onclick="aplausosClick();" >Aplausos</button>
         <button onclick="johnsullivanClick();" >John Sulliván</button>
-        <button onclick="speshaldayClick();" >Iss a speshal dei tudu somfin fun</button>
+        <button onclick="speshaldayClick();" >Iss a speshal dei</button>
+        <button onclick="tudusomfingClick();" >tudu somfing fun</button>
         <button id="stop" onclick="stopVideo();">STOP</button>    
     </div>
     <style>
@@ -205,10 +206,20 @@
         player.loadVideoById({
             videoId: urlCall,
             startSeconds: 20,
-            endSeconds: 28,
+            endSeconds: 21.5,
             suggestedQuality: 'small'
         }); 
       }
+      function tudusomfingClick() {
+        var urlCall = "vuus2ks1-nw";
+        player.loadVideoById({
+            videoId: urlCall,
+            startSeconds: 23,
+            endSeconds: 24,
+            suggestedQuality: 'small'
+        }); 
+      }
+      
       function stopVideo() {
         player.stopVideo();
       }
