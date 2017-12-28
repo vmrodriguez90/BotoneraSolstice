@@ -16,7 +16,8 @@
         <button onclick="badadumtissClick();">Bada dum Tiss</button>
         <button onclick="risasClick();" >Risas</button>
         <button onclick="aplausosClick();" >Aplausos</button>
-              <button onclick="johnsullivanClick();" >John Sulliván</button>
+        <button onclick="johnsullivanClick();" >John Sulliván</button>
+        <button onclick="speshaldayClick();" >Iss a speshal dei tudu somfin fun</button>
         <button id="stop" onclick="stopVideo();">STOP</button>    
     </div>
     <style>
@@ -196,6 +197,15 @@
             videoId: urlCall,
             startSeconds: 1.9,
             endSeconds: 3,
+            suggestedQuality: 'small'
+        }); 
+      }
+      function speshaldayClick() {
+        var urlCall = "vuus2ks1-nw";
+        player.loadVideoById({
+            videoId: urlCall,
+            startSeconds: 20,
+            endSeconds: 28,
             suggestedQuality: 'small'
         }); 
       }
