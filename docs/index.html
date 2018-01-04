@@ -219,9 +219,9 @@
     $(function () {
         $('button').on('click', function(event){
             $.each($('button i'), function (i, item) {
-                $(item).find('i').removeClass('fa-play');
-                $(item).find('i').removeClass('fa-pause');
-                $(item).find('i').addClass('fa-play');
+                $(item).removeClass('fa-play');
+                $(item).removeClass('fa-pause');
+                $(item).addClass('fa-play');
             });
             if ($(this).find('i').hasClass('fa-pause')) {
                 $(this).find('i').addClass('fa-play');
