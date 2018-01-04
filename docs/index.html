@@ -218,13 +218,13 @@
     }
     $(function () {
         $('button').on('click', function(event){
+            var isStopping = !$(this).find('i').hasClass('fa-play');
             $.each($('button i'), function (i, item) {
                 $(item).removeClass('fa-play');
                 $(item).removeClass('fa-pause');
                 $(item).addClass('fa-play');
-                
             });
-            if ($(this).find('i').hasClass('fa-pause')) {
+            if (isStopping) {
                 $(this).find('i').addClass('fa-play');
                 $(this).find('i').removeClass('fa-pause');
             } else {
