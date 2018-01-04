@@ -58,7 +58,7 @@ rel=
     background-color: #fff;
 }
 
-.btn:active {
+.btn:active, .btn:focus {
     color: #2E3136;
     background-color: #F7BF17;
 }
