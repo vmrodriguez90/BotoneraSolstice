@@ -209,7 +209,7 @@
             suggestedQuality: 'small'
         };
         player.setVolume(100);
-        if (end) {
+        if (!isNaN(end)) {
             properties.endSeconds = end;
         }
         player.loadVideoById(properties);
