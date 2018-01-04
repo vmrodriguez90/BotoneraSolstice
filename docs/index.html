@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <title>Botonera Solstice</title>
@@ -12,266 +12,226 @@
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="icon" type="image/png" href="img/favicon.png"/>
 
-  </head>
+</head>
 
 <body>
 <div class="container">
 
 
-	<div class="row no-gutters">
-
-	    
-	    <div class="col-12 col-md-6 back1">
-	    	<img class="img" src="img/back.gif" height="650" width="606">
-	    </div>
+    <div class="row no-gutters">
 
 
-	   	<div class="col-12 col-md-5 content">
-
-	   			<div id="player"></div>
-
-	   		<ul>
-	   			<li><button onclick="callonmeClick();"" class="btn btn-primary"> <i class="fa fa-play" aria-hidden="true"></i>&nbsp;&nbsp;Call on me</button></li>
-	   			<li><button onclick="martinfierroClick();" class="btn btn-primary"> <i class="fa fa-play" aria-hidden="true"></i>&nbsp;&nbsp;Martin Fierro </button></li>
-				<li><button onclick="pamonoClick();" class="btn btn-primary"> <i class="fa fa-play" aria-hidden="true"></i>&nbsp;&nbsp;Pa Mono </button></li>
-				<li><button onclick="mamaClick();" class="btn btn-primary"> <i class="fa fa-play" aria-hidden="true"></i>&nbsp;&nbsp;Mamaaaa</button></li>
-				<li><button onclick="cortasteClick();" class="btn btn-primary"> <i class="fa fa-play" aria-hidden="true"></i>&nbsp;&nbsp;Acabas de cortar toa' la letricida'</button></li>
-	   			<li><button onclick="guerradeproyClick();" class="btn btn-primary"> <i class="fa fa-play" aria-hidden="true"></i>&nbsp;&nbsp;Guerra de proyectos </button></li>
-				<li><button onclick="hebotonClick();" class="btn btn-primary"> <i class="fa fa-play" aria-hidden="true"></i>&nbsp;&nbsp;He boton! By Butti </button></li>
-				<li><button onclick="sexbombClick();" class="btn btn-primary"> <i class="fa fa-play" aria-hidden="true"></i>&nbsp;&nbsp;Sex bomb</button></li>
-	   			<li><button onclick="grilloClick();" class="btn btn-primary"> <i class="fa fa-play" aria-hidden="true"></i>&nbsp;&nbsp;Grillo </button></li>
-				<li><button onclick="badadumtissClick();" class="btn btn-primary"> <i class="fa fa-play" aria-hidden="true"></i>&nbsp;&nbsp;Bada dum tiss </button></li>
-				<li><button onclick="risasClick();" class="btn btn-primary"> <i class="fa fa-play" aria-hidden="true"></i>&nbsp;&nbsp;Risas</button></li>
-	   			<li><button onclick="aplausosClick();" class="btn btn-primary"> <i class="fa fa-play" aria-hidden="true"></i>&nbsp;&nbsp;Aplausos </button></li>
-				<li><button onclick="johnsullivanClick();" class="btn btn-primary"> <i class="fa fa-play" aria-hidden="true"></i>&nbsp;&nbsp;John Sulliván </button></li>
-				<li><button onclick="brianandersonClick();" class="btn btn-primary"> <i class="fa fa-play" aria-hidden="true"></i>&nbsp;&nbsp;Braiaann Andarsaan</button></li>
-	   			<li><button onclick="speshaldayClick();" class="btn btn-primary"> <i class="fa fa-play" aria-hidden="true"></i>&nbsp;&nbsp;Iss a speshal dei </button></li>
-				<li><button onclick="tudusomfingClick();" class="btn btn-primary"> <i class="fa fa-play" aria-hidden="true"></i>&nbsp;&nbsp;Tudu somfing fun </button></li>
-				<li><button onclick="yepClick();" class="btn btn-primary"> <i class="fa fa-play" aria-hidden="true"></i>&nbsp;&nbsp;Yep</button></li>
-
-				<button id="stop" onclick="stopVideo();">STOP</button>
-
-			</ul>
-	    </div>
-
-	   	<div class="col-1 support">
-	    	<img class="img" src="img/back-2.png" height="650" width="102">
-
-	    </div>
+        <div class="col-12 col-md-6 back1">
+            <img class="img" src="img/back.gif" height="650" width="606">
+        </div>
 
 
+        <div class="col-12 col-md-5 content">
 
-	</div>
+            <div id="player"></div>
+
+            <ul>
+                <li>
+                    <button onclick="playVideo('7ou6MoKmxFQ',20, null);"
+                            class="btn btn-primary"><i class="fa fa-play" aria-hidden="true"></i>Call on me
+                    </button>
+                </li>
+                <li>
+                    <button onclick="playVideo('17AgKqsXf8c', 8, 20);" class="btn btn-primary"><i class="fa fa-play"
+                                                                                                  aria-hidden="true"></i>Martin
+                        Fierro
+                    </button>
+                </li>
+                <li>
+                    <button onclick="playVideo('WvVWJn1pO4w',0.5, 1.5);" class="btn btn-primary"><i class="fa fa-play"
+                                                                                                    aria-hidden="true"></i>Pa
+                        Mono
+                    </button>
+                </li>
+                <li>
+                    <button onclick="playVideo('0UMVKAIEfk8', 7, 8);" class="btn btn-primary"><i class="fa fa-play"
+                                                                                                 aria-hidden="true"></i>Mamaaaa
+                    </button>
+                </li>
+                <li>
+                    <button onclick="playVideo('0UMVKAIEfk8', 11.5, 14.5);" class="btn btn-primary"><i
+                            class="fa fa-play"
+                            aria-hidden="true"></i>Acabas de
+                        cortar toa' la letricida'
+                    </button>
+                </li>
+                <li>
+                    <button onclick="playVideo('0R0IZ4Y8lck',27, 30);" class="btn btn-primary"><i class="fa fa-play"
+                                                                                                  aria-hidden="true"></i>Guerra
+                        de
+                        proyectos
+                    </button>
+                </li>
+                <li>
+                    <button onclick="playVideo('0R0IZ4Y8lck', 2.1, 3.25);" class="btn btn-primary"><i class="fa fa-play"
+                                                                                                      aria-hidden="true"></i>He
+                        boton! By
+                        Butti
+                    </button>
+                </li>
+                <li>
+                    <button onclick="playVideo('QMoXON7k--c', 47, 63)" class="btn btn-primary"><i class="fa fa-play"
+                                                                                                  aria-hidden="true"></i>Sex
+                        bomb
+                    </button>
+                </li>
+                <li>
+                    <button onclick="playVideo('RktX4lbe_g4', 0.5, null)" class="btn btn-primary"><i class="fa fa-play"
+                                                                                                     aria-hidden="true"></i>Grillo
+                    </button>
+                </li>
+                <li>
+                    <button onclick="playVideo('Az83wgx3dwg', 1, null);" class="btn btn-primary"><i class="fa fa-play"
+                                                                                                    aria-hidden="true"></i>Bada
+                        dum
+                        tiss
+                    </button>
+                </li>
+                <li>
+                    <button onclick="playVideo('lJXKie2xCoQ', 1, null);" class="btn btn-primary"><i class="fa fa-play"
+                                                                                                    aria-hidden="true"></i>Risas
+                    </button>
+                </li>
+                <li>
+                    <button onclick="playVideo('7t2HZLZ1PQs', 3.5, null);" class="btn btn-primary"><i class="fa fa-play"
+                                                                                                      aria-hidden="true"></i>Aplausos
+                    </button>
+                </li>
+                <li>
+                    <button onclick="playVideo('GY1uYJ2E1fY', 1.9, 3.25);" class="btn btn-primary"><i class="fa fa-play"
+                                                                                                      aria-hidden="true"></i>John
+                        Sulliván
+                    </button>
+                </li>
+                <li>
+                    <button onclick="playVideo('tf1vCJMMsK8',3.5, 5 );" class="btn btn-primary"><i class="fa fa-play"
+                                                                                                   aria-hidden="true"></i>Braiaann
+                        Andarsaan
+                    </button>
+                </li>
+                <li>
+                    <button onclick="playVideo('vuus2ks1-nw', 20, 21.5)" class="btn btn-primary"><i class="fa fa-play"
+                                                                                                    aria-hidden="true"></i>Iss
+                        a speshal
+                        dei
+                    </button>
+                </li>
+                <li>
+                    <button onclick="playVideo('vuus2ks1-nw', 23, 24.5);" class="btn btn-primary"><i class="fa fa-play"
+                                                                                                     aria-hidden="true"></i>Tudu
+                        somfing
+                        fun
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-1 support">
+            <img class="img" src="img/back-2.png" height="650" width="102">
+
+        </div>
+
+
+    </div>
 
 
 </div>
 
 
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
 
 
+<script>
+    // 2. This code loads the IFrame Player API code asynchronously.
+    var tag = document.createElement('script');
 
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-
-
-
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
-
-
-
-   <script>
-      // 2. This code loads the IFrame Player API code asynchronously.
-      var tag = document.createElement('script');
-
-      tag.src = "https://www.youtube.com/iframe_api";
-      var firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-      // 3. This function creates an <iframe> (and YouTube player)
-      //    after the API code downloads.
-      var player,
-          callonme,
-          pamono,
-          martinfierro;
-      function onYouTubeIframeAPIReady() {
+    // 3. This function creates an <iframe> (and YouTube player)
+    //after the API code downloads.
+    var player,
+            playing = false,
+            lastId = '';
+    function onYouTubeIframeAPIReady() {
         player = new YT.Player('player', {
-          height: '0',
-          width: '0',
-          videoId: '17AgKqsXf8c'
-        }); 
-      }
-      // 4. The API will call this function when the video player is ready.
-      function onPlayerReady(event) {
+            height: '0',
+            width: '0',
+            videoId: '17AgKqsXf8c'
+        });
+    }
+    // 4. The API will call this function when the video player is ready.
+    function onPlayerReady(event) {
         event.target.playVideo();
-      }
-      // 5. The API calls this function when the player's state changes.
-      //    The function indicates that when playing a video (state=1),
-      //    the player should play for six seconds and then stop.
-      var done = false;
-      function onPlayerStateChange(event) {
+    }
+    // 5. The API calls this function when the player's state changes.
+    //The function indicates that when playing a video (state=1),
+    //the player should play for six seconds and then stop.
+    var done = false;
+    function onPlayerStateChange(event) {
         if (event.data == YT.PlayerState.PLAYING && !done) {
-          setTimeout(stopVideo, 6000);
-          done = true;
+            setTimeout(stopVideo, 6000);
+            done = true;
         }
-      }
-      
-      function callonmeClick() {
-        var urlCall = "7ou6MoKmxFQ";
-        player.loadVideoById({
-            videoId: urlCall,
-            startSeconds: 20,
+    }
+
+    function playVideo(id, start, end) {
+        if (playing && id === lastId) {
+            return stopVideo();
+        }
+        playing = true;
+        lastId = id;
+        var properties = {
+            videoId: id,
+            startSeconds: start,
             suggestedQuality: 'small'
-        });
-      }
-      function martinfierroClick() {
-        var urlCall = "17AgKqsXf8c";
-        player.loadVideoById({
-            videoId: urlCall,
-            startSeconds: 08,
-            endSeconds: 20,
-            suggestedQuality: 'small'
-        });
-      }
-      function pamonoClick() {
-        var urlCall = "WvVWJn1pO4w";
-        player.loadVideoById({
-            videoId: urlCall,
-            startSeconds: 0.5,
-            endSeconds: 1.5,
-            suggestedQuality: 'small'
-        }); 
-      }
-      function mamaClick() {
-        var urlCall = "0UMVKAIEfk8";
-        player.loadVideoById({
-            videoId: urlCall,
-            startSeconds: 07,
-            endSeconds: 08,
-            suggestedQuality: 'small'
-        }); 
-      }
-      function cortasteClick() {
-        var urlCall = "0UMVKAIEfk8";
-        player.loadVideoById({
-            videoId: urlCall,
-            startSeconds: 11.5,
-            endSeconds: 14.5,
-            suggestedQuality: 'small'
-        }); 
-      }
-      function guerradeproyClick() {
-        var urlCall = "0R0IZ4Y8lck";
-        player.loadVideoById({
-            videoId: urlCall,
-            startSeconds: 27,
-            endSeconds: 30,
-            suggestedQuality: 'small'
-        }); 
-      }
-      function hebotonClick() {
-        var urlCall = "0R0IZ4Y8lck";
-        player.loadVideoById({
-            videoId: urlCall,
-            startSeconds: 2.1,
-            endSeconds: 3.25,
-            suggestedQuality: 'small'
-        }); 
-      }
-      function sexbombClick() {
-        var urlCall = "QMoXON7k--c";
-        player.loadVideoById({
-            videoId: urlCall,
-            startSeconds: 47,
-            endSeconds: 63,
-            suggestedQuality: 'small'
-        }); 
-      }
-      function grilloClick() {
-        var urlCall = "RktX4lbe_g4";
-        player.loadVideoById({
-            videoId: urlCall,
-            startSeconds: 0.5,
-            suggestedQuality: 'small'
-        }); 
-      }
-      function badadumtissClick() {
-        var urlCall = "Az83wgx3dwg";
-        player.loadVideoById({
-            videoId: urlCall,
-            startSeconds: 1,
-            suggestedQuality: 'small'
-        }); 
-      }
-      function risasClick() {    
-        var urlCall = "lJXKie2xCoQ";
-        player.loadVideoById({
-            videoId: urlCall,
-            startSeconds: 0.5,
-            suggestedQuality: 'small'
-        }); 
-      }
-      function aplausosClick() {
-        var urlCall = "7t2HZLZ1PQs";
-        player.loadVideoById({
-            videoId: urlCall,
-            startSeconds: 3.5,
-            endSeconds: 13,
-            suggestedQuality: 'small'
-        }); 
-      }
-      function johnsullivanClick() {
-        var urlCall = "GY1uYJ2E1fY";
-        player.loadVideoById({
-            videoId: urlCall,
-            startSeconds: 1.9,
-            endSeconds: 3,
-            suggestedQuality: 'small'
-        }); 
-      }
-      function speshaldayClick() {
-        var urlCall = "vuus2ks1-nw";
-        player.loadVideoById({
-            videoId: urlCall,
-            startSeconds: 20,
-            endSeconds: 21.5,
-            suggestedQuality: 'small'
-        }); 
-      }
-      function tudusomfingClick() {
-        var urlCall = "vuus2ks1-nw";
-        player.loadVideoById({
-            videoId: urlCall,
-            startSeconds: 23,
-            endSeconds: 24.9,
-            suggestedQuality: 'small'
-        }); 
-      }
-      function yepClick() {
-        var urlCall = "vuus2ks1-nw";
-        player.loadVideoById({
-            videoId: urlCall,
-            startSeconds: 82,
-            endSeconds: 84.5,
-            suggestedQuality: 'small'
-        }); 
-      }
-       function brianandersonClick() {
-        var urlCall = "tf1vCJMMsK8";
-        player.loadVideoById({
-            videoId: urlCall,
-            startSeconds: 3.5,
-            suggestedQuality: 'small'
-        }); 
-      }
-      
-      function stopVideo() {
+        };
+        player.setVolume(100);
+        if (end) {
+            properties.endSeconds = end;
+        }
+        player.loadVideoById(properties);
+
+    }
+
+    function stopVideo() {
+        playing = false;
+        lastId = null;
         player.stopVideo();
-      }
-    </script>
-  </body>
+    }
+    $(function () {
+        $('button').on('click', function(event){
+            $.each($('button i'), function (i, item) {
+                $(item).find('i').removeClass('fa-play');
+                $(item).find('i').removeClass('fa-pause');
+                $(item).find('i').addClass('fa-play');
+            });
+            if ($(this).find('i').hasClass('fa-pause')) {
+                $(this).find('i').addClass('fa-play');
+                $(this).find('i').removeClass('fa-pause');
+            } else {
+                $(this).find('i').removeClass('fa-play');
+                $(this).find('i').addClass('fa-pause');
+            }
+        });
+    });
+</script>
+</body>
 </html>
