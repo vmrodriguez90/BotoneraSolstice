@@ -203,16 +203,17 @@
         }
         playing = true;
         lastId = id;
-        var properties = {
+        var playProperties = {
             videoId: id,
             startSeconds: start,
             suggestedQuality: 'small'
         };
         if (!isNaN(end)) {
-            properties.endSeconds = end;
+            console.log('entering end: ', end);
+            playProperties.endSeconds = end;
         }
         player.setVolume(100);
-        player.loadVideoById(properties);
+        player.loadVideoById(playProperties);
 
     }
 
