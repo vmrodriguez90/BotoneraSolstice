@@ -203,17 +203,24 @@
         }
         playing = true;
         lastId = id;
-        var playProperties = {
-            videoId: id,
-            startSeconds: start,
-            suggestedQuality: 'small'
-        };
-        if (!isNaN(end)) {
-            console.log('entering end: ', end);
-            playProperties.endSeconds = end;
-        }
+
+        console.log('playProperties: ', playProperties);
+        player.stopVideo();
         player.setVolume(100);
-        player.loadVideoById(playProperties);
+        if (!isNaN(end)) {
+            player.loadVideoById({
+                'videoId': id,
+                'startSeconds': start,
+                'endSeconds': Number(end),
+                'suggestedQuality': 'small'
+            });
+        } else {
+            player.loadVideoById( {
+                'videoId': id,
+                'startSeconds': start,
+                'suggestedQuality': 'small'
+            });
+        }
 
     }
 
