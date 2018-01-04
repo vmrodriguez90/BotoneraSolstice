@@ -208,10 +208,10 @@
             startSeconds: start,
             suggestedQuality: 'small'
         };
-        player.setVolume(100);
         if (!isNaN(end)) {
             properties.endSeconds = end;
         }
+        player.setVolume(100);
         player.loadVideoById(properties);
 
     }
