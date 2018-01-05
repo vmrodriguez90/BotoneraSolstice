@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <title>Botonera Solstice</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -28,7 +28,7 @@
         </div>
 
 
-        <div class="col-12 col-md-5 content">
+        <div class="col-12 col-sm-12 col-xs-12 col-xl-12 col-md-5 content">
 
             <div id="player"></div>
 
@@ -204,21 +204,12 @@
         }
         playing = true;
         lastId = id;
-        player.stopVideo();
-        if (!isNaN(end)) {
-            player.loadVideoById({
-                'videoId': id,
-                'startSeconds': start,
-                'endSeconds': Number(end),
-                'suggestedQuality': 'small'
-            });
-        } else {
-            player.loadVideoById( {
-                'videoId': id,
-                'startSeconds': start,
-                'suggestedQuality': 'small'
-            });
-        }
+        player.loadVideoById({
+            'videoId': id,
+            'startSeconds': start,
+            'endSeconds': end,
+            'suggestedQuality': 'small'
+        });
 
     }
 
