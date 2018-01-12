@@ -135,6 +135,16 @@
                         dawayiseee
                     </button>
                 </li>
+                <li>
+                    <button onclick="playVideo('ghDcocuw6jc', 0.5, null);" class="btn btn-primary"><i class="fa fa-play" aria-hidden="true"></i>
+                        el jamoorr jes una majiaaa
+                    </button>
+                </li>
+                <li>
+                    <button onclick="playVideo('Gx55TnpBdKg', 43, null);" class="btn btn-primary"><i class="fa fa-play" aria-hidden="true"></i>
+                        perdon, pero tengo las bolas llenas
+                    </button>
+                </li>
             </ul>
         </div>
 
@@ -196,6 +206,13 @@
             setTimeout(stopVideo, 6000);
             done = true;
         }
+        if(event.data == YT.PlayerState.ENDED) {
+            $.each($('button i'), function (i, item) {
+                $(item).removeClass('fa-play');
+                $(item).removeClass('fa-pause');
+                $(item).addClass('fa-play');
+            });
+        }
     }
 
     function playVideo(id, start, end) {
@@ -208,7 +225,8 @@
             'videoId': id,
             'startSeconds': start,
             'endSeconds': end,
-            'suggestedQuality': 'small'
+            'suggestedQuality': 'small',
+            'onStateChange': onPlayerStateChange
         });
 
     }
@@ -217,6 +235,7 @@
         playing = false;
         lastId = null;
         player.stopVideo();
+
     }
     $(function () {
         $('button').on('click', function(event){
