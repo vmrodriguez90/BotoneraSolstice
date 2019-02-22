@@ -45,7 +45,11 @@ footer {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: url(https://www.solstice.com/hubfs/Revamp/images/solsticelogo_color.svg) no-repeat;
-  width: 180px; /* Width of new image */
-  height: 236px; /* Height of new image */
-  padding-left: 180px; /* Equal to width of new image */
+  width: 1px;
+  height: 57px;
+  background-size: 60% 60%;
+  padding-left: 180px;
+  background-position: center center;
+  fill: currentColor;
+  color: white;
 }
