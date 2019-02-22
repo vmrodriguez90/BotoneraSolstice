@@ -28,3 +28,8 @@ footer {
   border: 0 !important;
   background: transparent;
 }
+
+#navBarFlag
+{
+  display:none;
+} 
