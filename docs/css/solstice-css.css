@@ -1,3 +1,13 @@
+/*
+This Stylesheet was created to improve the visual of Solstice Youtube
+
+Solstice Image: https://www.solstice.com/hubfs/Revamp/images/solsticelogo_color.svg
+
+*/
 footer {
-  display:none;
+  display: none;
+}
+
+.btn, .form-control {
+  border-radius: 0 !important;
 }
