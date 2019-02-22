@@ -29,7 +29,8 @@ footer {
   background: transparent;
 }
 
-#navBarFlag, #myNavBar .hidden-md 
+#navBarFlag, #myNavBar .btn.navbar-btn.btn-default i.text-muted,
+#myNavBar .btn.navbar-btn.btn-default span
 {
   display:none !important;
 } 
