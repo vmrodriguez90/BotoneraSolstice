@@ -29,8 +29,9 @@ footer {
   background: transparent;
 }
 
-#navBarFlag, #myNavBar .btn.navbar-btn.btn-default i.text-muted,
-#myNavBar .btn.navbar-btn.btn-default span
+#navBarFlag, #myNavbar i.fas.fa-lock-open.text-muted,
+#myNavBar .btn.navbar-btn.btn-default span,
+#myNavbar ul a span
 {
   display:none !important;
 } 
