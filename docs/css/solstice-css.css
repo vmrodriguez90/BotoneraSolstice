@@ -40,3 +40,12 @@ footer {
 #searchForm > span > button, #searchForm > span > button:hover, #searchForm > span > button:focus {
   border: 0px !important;
 }
+body nav ul a img {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(https://www.solstice.com/hubfs/Revamp/images/solsticelogo_color.svg) no-repeat;
+  width: 180px; /* Width of new image */
+  height: 236px; /* Height of new image */
+  padding-left: 180px; /* Equal to width of new image */
+}
