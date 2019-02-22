@@ -31,5 +31,5 @@ footer {
 
 #navBarFlag, #myNavBar .hidden-md 
 {
-  display:none;
+  display:none !important;
 } 
