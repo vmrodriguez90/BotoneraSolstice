@@ -36,6 +36,7 @@ footer {
   display:none !important;
 } 
 
-#searchForm > input, #searchForm > input:focus, #searchForm > input:hover {
-  border: 0px solid rgb(220, 228, 236) !important;
+#searchForm > input, #searchForm > input:focus, #searchForm > input:hover,
+#searchForm > span > button, #searchForm > span > button:hover, #searchForm > span > button:focus {
+  border: 0px !important;
 }
