@@ -152,3 +152,15 @@ Converted SASS
 #modeYoutubeBottom .row .watch8-action-buttons .btn.btn-default:hover {
   background: #f0f0f0;
 }
+#modeYoutubeBottom .row#shareDiv .nav.nav-tabs {
+  display: none;
+}
+#modeYoutubeBottom .row#shareDiv .tab-content {
+  padding: 0;
+}
+#modeYoutubeBottom .row#shareDiv .tab-content .tab-pane {
+  display: none !important;
+}
+#modeYoutubeBottom .row#shareDiv .tab-content #tabPermaLink {
+  display: block !important;
+}
