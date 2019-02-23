@@ -114,6 +114,9 @@ footer {
 Converted SASS
 */
 
+
+
+
 #modeYoutubeBottom .row.divMainVideo .col-xs-8.col-sm-8.col-md-8 .watch-view-count {
   border-bottom: 0px;
   margin: 0;
@@ -188,10 +191,10 @@ Converted SASS
   padding: 0 0 0 32px;
   margin: 0;
 }
-#modeYoutubeBottom .rightBar #videosList > div a .videosDetails .title {
+#modeYoutubeBottom .rightBar #videosList > div a .videosDetails .row .title {
   font-size: 14px;
 }
-#modeYoutubeBottom .rightBar #videosList > div a .videosDetails:after, #modeYoutubeBottom .rightBar #videosList > div a .videosDetails:before {
+#modeYoutubeBottom .rightBar #videosList > div a .videosDetails .row:after, #modeYoutubeBottom .rightBar #videosList > div a .videosDetails .row:before {
   display: none;
 }
 #modeYoutubeBottom .rightBar #videosList .col-md-8.col-sm-12,
