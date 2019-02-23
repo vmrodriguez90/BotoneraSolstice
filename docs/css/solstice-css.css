@@ -35,19 +35,6 @@ Solstice Image: https://www.solstice.com/hubfs/Revamp/images/solsticelogo_color.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
   display: none;
 }
@@ -271,7 +258,7 @@ footer {
 #modeYoutubeBottom .rightBar #videosList .col-md-4.col-sm-12 {
   display: none;
 }
-#modeYoutubeBottom .rightBar #videosList .pages {
+#modeYoutubeBottom .rightBar #videosList ul.pages {
   display: block;
   height: auto;
   float: none !important;
@@ -281,7 +268,7 @@ footer {
   padding: 0;
   margin: 0;
 }
-#modeYoutubeBottom .rightBar #videosList .pages .pagination {
+#modeYoutubeBottom .rightBar #videosList ul.pages .pagination {
   width: 100%;
 }
 #modeYoutubeBottom .rightBar .autoplay {
