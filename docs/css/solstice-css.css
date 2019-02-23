@@ -80,7 +80,10 @@ footer {
   width: 100px !important;
 }
 
-#modeYoutubeBottom .col-sm-6, 
-#modeYoutubeBottom .col-md-6 {
-
+#modeYoutubeBottom {
+  margin: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
 }
