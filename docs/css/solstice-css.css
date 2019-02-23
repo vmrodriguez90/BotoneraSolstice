@@ -202,9 +202,6 @@ Converted SASS
   font-size: 12px;
   margin: 8px 0;
 }
-#modeYoutubeBottom .rightBar #videosList > div a .videosDetails .row.details div:first-child {
-  display: none;
-}
 #modeYoutubeBottom .rightBar #videosList > div a .videosDetails .row.details div div {
   float: none !important;
 }
@@ -213,6 +210,9 @@ Converted SASS
   float: none;
   font-size: 12px;
   color: #444;
+}
+#modeYoutubeBottom .rightBar #videosList > div a .videosDetails .row.details > div:first-child {
+  display: none;
 }
 #modeYoutubeBottom .rightBar #videosList > div a .videosDetails .row:after, #modeYoutubeBottom .rightBar #videosList > div a .videosDetails .row:before {
   display: none;
