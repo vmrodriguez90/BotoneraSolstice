@@ -52,6 +52,8 @@ footer {
   background-size: 60% 60%;
   mask-size: 60% 60%;
   -webkit-mask-size: 60% 60%;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
   padding-left: 180px;
   background-position: center center;
   color: white;
