@@ -167,6 +167,9 @@ Converted SASS
 }
 #modeYoutubeBottom .rightBar #videosList > div {
   padding: 0;
+}
+#modeYoutubeBottom .rightBar #videosList > div a {
+  margin: 0;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
