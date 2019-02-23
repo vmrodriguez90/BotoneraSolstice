@@ -45,8 +45,8 @@ footer {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: #fff;
-  -webkit-mask-image: url(https://www.solstice.com/hubfs/Revamp/images/solsticelogo_color.svg);
-  mask-image: url(https://www.solstice.com/hubfs/Revamp/images/solsticelogo_color.svg);
+  -webkit-mask-image: url(https://www.solstice.com/hubfs/Revamp/images/solsticelogo_color.svg) no-repeat 50% 50%;
+  mask-image: url(https://www.solstice.com/hubfs/Revamp/images/solsticelogo_color.svg) no-repeat 50% 50%;
   width: 1px;
   height: 57px;
   background-size: 60% 60%;
