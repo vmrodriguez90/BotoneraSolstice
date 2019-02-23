@@ -53,3 +53,8 @@ footer {
   color: white;
   fill: currentColor;
 }
+
+.navbar.navbar-default.navbar-fixed-top .fa, 
+.navbar.navbar-default.navbar-fixed-top .fas {
+  font-size: 18px;
+}
