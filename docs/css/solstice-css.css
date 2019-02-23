@@ -109,12 +109,6 @@ footer {
   width: 60%;
   padding: 0;
 }
-#modeYoutubeBottom .divMainVideo .col-xs-8.col-sm-8.col-md-8 {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  justify-content: space-between;
-}
 #modeYoutubeBottom .divMainVideo .col-xs-8.col-sm-8.col-md-8 h1 {
   display: flex;
   font-size: 25px;
@@ -122,6 +116,7 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
+#modeYoutubeBottom .divMainVideo .col-xs-8.col-sm-8.col-md-8 .col-xs-12.col-sm-12.col-md-12,
 #modeYoutubeBottom .divMainVideo .col-xs-8.col-sm-8.col-md-8 .commentDetails .commenterName {
   display: flex;
   flex-flow: row nowrap;
