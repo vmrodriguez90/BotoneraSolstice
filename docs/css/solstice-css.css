@@ -44,7 +44,9 @@ footer {
   display: block;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background: url(https://www.solstice.com/hubfs/Revamp/images/solsticelogo_color.svg) no-repeat;
+  background: #fff;
+  -webkit-mask-image: url(https://www.solstice.com/hubfs/Revamp/images/solsticelogo_color.svg);
+  mask-image: url(https://www.solstice.com/hubfs/Revamp/images/solsticelogo_color.svg);
   width: 1px;
   height: 57px;
   background-size: 60% 60%;
@@ -65,6 +67,7 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+
 #myNavbar {
   width: 100px !important;
 }
