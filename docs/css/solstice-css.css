@@ -146,6 +146,9 @@ Converted SASS
   color: #444;
   border: 0;
 }
+#modeYoutubeBottom .row .watch8-action-buttons .btn.btn-default .fa {
+  margin-right: 5px;
+}
 #modeYoutubeBottom .row .watch8-action-buttons .btn.btn-default:hover {
   background: #f0f0f0;
 }
