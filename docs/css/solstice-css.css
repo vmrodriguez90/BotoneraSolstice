@@ -195,7 +195,7 @@ Converted SASS
 #modeYoutubeBottom .rightBar #videosList > div a .videosDetails .row {
   display: none;
 }
-#modeYoutubeBottom .rightBar #videosList > div a .videosDetails .row.details {
+#modeYoutubeBottom .rightBar #videosList > div a .videosDetails .row.details, #modeYoutubeBottom .rightBar #videosList > div a .videosDetails .row.text-uppercase {
   display: block;
 }
 #modeYoutubeBottom .rightBar #videosList > div a .videosDetails .row:after, #modeYoutubeBottom .rightBar #videosList > div a .videosDetails .row:before {
