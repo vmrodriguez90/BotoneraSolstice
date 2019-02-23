@@ -30,7 +30,6 @@ footer {
 }
 
 #navBarFlag, #myNavbar i.fas.fa-lock-open.text-muted,
-#modeYoutubeBottom .col-sm-1.col-md-1,
 #myNavBar .btn.navbar-btn.btn-default span,
 #myNavbar ul a span
 {
@@ -95,5 +94,11 @@ footer {
   margin: 0;
 }
 .container-fluid.principalContainer  {
+  padding: 0;
+}
+#modeYoutubeBottom .col-sm-1.col-md-1 {
+  display: inline-flex !important;
+  width: 16px;
+  margin: 0;
   padding: 0;
 }
