@@ -21,7 +21,6 @@ Solstice Image: https://www.solstice.com/hubfs/Revamp/images/solsticelogo_color.
 
 
 
-
 footer {
   display: none;
 }
@@ -264,5 +263,15 @@ footer {
   color: #444;
 }
 #modeYoutubeBottom .rightBar .autoplay span.pull-right {
+  display: none;
+}
+
+#sidebar #sideBarContainer ul {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  aling-items: flex-start;
+}
+#sidebar a[href~=logoff] .fa, #sidebar a[href~=logoff] .fab, #sidebar a[href~=logoff] .fas {
   display: none;
 }
