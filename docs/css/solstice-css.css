@@ -113,27 +113,39 @@ footer {
 /*
 Converted SASS
 */
-#modeYoutubeBottom .divMainVideo .col-xs-8.col-sm-8.col-md-8 .watch-view-count {
+#modeYoutubeBottom .row.divMainVideo .col-xs-8.col-sm-8.col-md-8 .watch-view-count {
   border-bottom: 0px;
   margin: 0;
   color: #444 !important;
 }
-#modeYoutubeBottom .divMainVideo .col-xs-8.col-sm-8.col-md-8 h1 {
+#modeYoutubeBottom .row.divMainVideo .col-xs-8.col-sm-8.col-md-8 h1 {
   display: flex;
   font-size: 25px;
   flex-flow: row nowrap;
   align-items: center;
   justify-content: space-between;
 }
-#modeYoutubeBottom .divMainVideo .col-xs-8.col-sm-8.col-md-8 h1 small {
+#modeYoutubeBottom .row.divMainVideo .col-xs-8.col-sm-8.col-md-8 h1 small {
   display: none;
 }
-#modeYoutubeBottom .divMainVideo .col-xs-8.col-sm-8.col-md-8 .col-xs-12.col-sm-12.col-md-12 {
+#modeYoutubeBottom .row.divMainVideo .col-xs-8.col-sm-8.col-md-8 .col-xs-12.col-sm-12.col-md-12 {
   padding: 0;
 }
-#modeYoutubeBottom .divMainVideo .col-xs-8.col-sm-8.col-md-8 .commentDetails .commenterName {
+#modeYoutubeBottom .row.divMainVideo .col-xs-8.col-sm-8.col-md-8 .commentDetails .commenterName {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   justify-content: space-between;
+}
+#modeYoutubeBottom .row .watch8-action-buttons {
+  border: 0;
+  margin-top: 16px;
+}
+#modeYoutubeBottom .row .watch8-action-buttons .btn.btn-default {
+  background: #fff;
+  color: #444;
+  border: 0;
+}
+#modeYoutubeBottom .row .watch8-action-buttons .btn.btn-default:hover {
+  background: #f0f0f0;
 }
