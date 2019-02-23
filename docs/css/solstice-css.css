@@ -112,7 +112,8 @@ footer {
 
 /*
 Converted SASS
-*/#modeYoutubeBottom .row.divMainVideo .col-xs-8.col-sm-8.col-md-8 .watch-view-count {
+*/
+#modeYoutubeBottom .row.divMainVideo .col-xs-8.col-sm-8.col-md-8 .watch-view-count {
   border-bottom: 0px;
   margin: 0;
   color: #444 !important;
