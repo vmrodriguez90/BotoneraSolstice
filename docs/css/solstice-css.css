@@ -113,6 +113,7 @@ footer {
 /*
 Converted SASS
 */
+
 #modeYoutubeBottom .row.divMainVideo .col-xs-8.col-sm-8.col-md-8 .watch-view-count {
   border-bottom: 0px;
   margin: 0;
@@ -157,10 +158,25 @@ Converted SASS
 }
 #modeYoutubeBottom .row#shareDiv .tab-content {
   padding: 0;
+  border: 0;
 }
 #modeYoutubeBottom .row#shareDiv .tab-content .tab-pane {
   display: none !important;
 }
 #modeYoutubeBottom .row#shareDiv .tab-content #tabPermaLink {
   display: block !important;
+}
+#modeYoutubeBottom .rightBar #videosList .col-md-8.col-sm-12,
+#modeYoutubeBottom .rightBar #videosList .col-md-4.col-sm-12 {
+  display: none;
+}
+#modeYoutubeBottom .rightBar #videosList [id="divVideo-*"] {
+  padding: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#modeYoutubeBottom .rightBar .autoplay span.pull-right {
+  display: none;
 }
