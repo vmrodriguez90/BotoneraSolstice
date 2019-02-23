@@ -23,14 +23,6 @@ Solstice Image: https://www.solstice.com/hubfs/Revamp/images/solsticelogo_color.
 
 
 
-
-
-
-
-
-
-
-
 footer {
   display: none;
 }
@@ -38,11 +30,14 @@ footer {
 .btn, .form-control {
   border-radius: 0 !important;
 }
-
-.btn.navbar-btn {
+.btn.navbar-btn, .form-control.navbar-btn {
   border: 0 !important;
   background: transparent;
 }
+.btn i.fa, .btn i.fas, .btn i.fab, .form-control i.fa, .form-control i.fas, .form-control i.fab {
+  margin-left: 5px;
+}
+
 #navBarFlag, #myNavbar i.fas.fa-lock-open.text-muted, #myNavBar .btn.navbar-btn.btn-default span, #myNavbar ul a span {
   display: none !important;
 }
