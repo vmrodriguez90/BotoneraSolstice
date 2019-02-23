@@ -115,6 +115,9 @@ Converted SASS
 */
 
 
+
+
+
 #modeYoutubeBottom .row.divMainVideo .col-xs-8.col-sm-8.col-md-8 .watch-view-count {
   border-bottom: 0px;
   margin: 0;
@@ -199,6 +202,10 @@ Converted SASS
   display: block;
 }
 #modeYoutubeBottom .rightBar #videosList > div a .videosDetails .row.details div {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
   font-size: 12px;
   margin: 8px 0;
 }
