@@ -58,7 +58,8 @@ footer {
 .navbar.navbar-default.navbar-fixed-top .fas {
   font-size: 18px;
 }
-.navbar.navbar-default.navbar-fixed-top ul.items-container {
+.navbar.navbar-default.navbar-fixed-top ul.items-container, 
+.navbar.navbar-default.navbar-fixed-top ul.items-container li {
   display: flex; 
   flex-flow: row nowrap;
   justify-content: space-between;
