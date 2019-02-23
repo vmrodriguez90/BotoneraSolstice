@@ -87,3 +87,13 @@ footer {
   justify-content: space-between;
   align-items: flex-start;
 }
+#modeYoutubeBottom .list-group-item {
+  border: 0px;
+  box-shadow: none;
+}
+#modeYoutubeBottom row {
+  margin: 0;
+}
+.container-fluid.principalContainer  {
+  padding: 0;
+}
