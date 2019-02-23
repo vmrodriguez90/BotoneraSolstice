@@ -31,10 +31,6 @@ Solstice Image: https://www.solstice.com/hubfs/Revamp/images/solsticelogo_color.
 
 
 
-
-
-
-
 footer {
   display: none;
 }
@@ -47,7 +43,6 @@ footer {
   border: 0 !important;
   background: transparent;
 }
-
 #navBarFlag, #myNavbar i.fas.fa-lock-open.text-muted, #myNavBar .btn.navbar-btn.btn-default span, #myNavbar ul a span {
   display: none !important;
 }
