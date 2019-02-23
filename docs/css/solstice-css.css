@@ -109,15 +109,14 @@ footer {
   width: 60%;
   padding: 0;
 }
-
-#modeYoutubeBottom .divMainVideo h1.name {
+#modeYoutubeBottom .divMainVideo h1 {
   display: flex;
   font-size: 25px;
   flex-flow: row nowrap;
   align-items: center;
   justify-content: space-between;
 }
-#modeYoutubeBottom .divMainVideo .commentDetails {
+#modeYoutubeBottom .divMainVideo .commentDetails .commenterName {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
